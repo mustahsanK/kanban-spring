@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-  @GetMapping("")
+  @GetMapping("/about")
   public String kanban() {
     return "Kanban Board";
   }
