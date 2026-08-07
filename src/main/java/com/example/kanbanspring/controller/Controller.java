@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
   @GetMapping("/about")
-  public String kanban() {
+  public String aboutKanban() {
     return "Kanban Board";
   }
 }
